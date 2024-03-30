@@ -1,0 +1,76 @@
+html, body{
+    background: fixed;
+    margin: 0%;
+    padding: 0%;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 100%;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: bisque;
+}
+.image1{
+    background-image: url(images/image1.png);
+    min-height: 100%;
+    
+}
+.image2{
+    background-image: url(images/image2.png);
+    min-height: 400px;
+    
+}
+.image3{
+    background-image: url(images/image3.png);
+    min-height: 100%;
+    
+}
+.image1, .image2, .image3{
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;  /*This property fixes the background so that we can have the parallax effect*/
+}
+
+.text1{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 8px;
+
+}
+
+
+.textspan1{
+    background: gray;
+    display: inline-block;
+    padding:5px;
+
+}
+
+.text2{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration-color: black;
+    text-align: center;
+    
+}
+
+.text2About{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: black;
+    margin-top: 40px;
+    line-height: 1.7;
+
+}
+.aboutmedes{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color:white;
+
+}
